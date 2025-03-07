@@ -12,7 +12,7 @@ def fetch_data_from_db(sql_query):
         with open('config.yaml', 'r') as file:
             config = yaml.safe_load(file)
 
-        con = ps.connect(# evitar hardcoding dbname="novadrivebank", user="etlreadonlybank", password="novadrive376A@", host="159.223.187.110", port=5432)
+        con = ps.connect(# evitar hardcoding 
 
             dbname=config['database_config']['dbname'], 
             user=config['database_config']['user'], 
