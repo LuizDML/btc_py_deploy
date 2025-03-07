@@ -1,4 +1,5 @@
 config.yaml
 modelo_rnn.keras
+infologon.txt
 objects/*
 !objects/.gitkeep
