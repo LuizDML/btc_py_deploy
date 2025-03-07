@@ -1,0 +1,4 @@
+config.yaml
+modelo_rnn.keras
+objects/*
+!objects/.gitkeep
