@@ -25,5 +25,5 @@ def predict():
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    app.run(host='0.0.0.0', por=5000, debug=True)
+    app.run(host='127.0.0.1', por=5000, debug=True)
     
