@@ -81,8 +81,8 @@ model.save('modelo_rnn.keras')
 ```
 
 Nos testes o modelo atingiu acurácia de 0.83 e boa medidas de recall, precision e f1-score, sendo robusto o suficiente para ser colocado em produção.
-![Captura de tela 2025-03-08 141211](https://github.com/user-attachments/assets/41a4d93d-782c-4458-b9a9-9f2aa781ad56)
 
+![Captura de tela 2025-03-08 141211](https://github.com/user-attachments/assets/41a4d93d-782c-4458-b9a9-9f2aa781ad56)
 
 ### Explicabilidade
 
@@ -159,13 +159,23 @@ Para configuração do servidor é necessário rodar alguns comandos para coloca
 
 * Com o cmd, bash ou powershell na pasta onde você salvou seu par de chaves:
 ssh -i par_de_chaves.pem usuario_da_vm@259.259.259.259
+
 sudo apt update
+
 sudo apt install python3-pip
+
 git clone https://github.com/LuizDML/btc_py_deploy.git
+
 touch config.yaml #cria o arquivo
+
 nano config.yaml #edita o arquivo
+
 pip3 install -r requirements.txt #tensorflow-cpu se o server for free
+
 python3 modelcreation.py 
+
 nohup python3 api.py & #nohup para rodar sem travar as linhas de comando
+
 sudo lsof -i :5000 #ver se está rodando
+
 nohup python3 - streamlit run webapp.py & 
