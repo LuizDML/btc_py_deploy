@@ -14,7 +14,7 @@ Como parte do bootcamp da Udemy um banco de dados relacional (OLTP) em Postgres 
 Utilizando SQL, os dados foram transformados para um formato que facilitasse a análise (OLAP).
 
 Banco relacional:
-imagem
+![Captura de tela 2025-03-08 134511](https://github.com/user-attachments/assets/98dadde1-9e30-4303-b13d-6fb9fc9eb5a7)
 
 Banco para análise:
 profissao | tempoprofissao | renda | tiporesidencia | escolaridade | score | idade | dependentes | estadocivil | produto | valorsolicitado | valortotalbem | classe
@@ -81,7 +81,7 @@ model.save('modelo_rnn.keras')
 ```
 
 Nos testes o modelo atingiu acurácia de 0.83 e boa medidas de recall, precision e f1-score, sendo robusto o suficiente para ser colocado em produção.
-Imagem
+![Captura de tela 2025-03-08 141211](https://github.com/user-attachments/assets/41a4d93d-782c-4458-b9a9-9f2aa781ad56)
 
 ### Explicabilidade
 
