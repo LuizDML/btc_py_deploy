@@ -83,6 +83,7 @@ model.save('modelo_rnn.keras')
 Nos testes o modelo atingiu acurácia de 0.83 e boa medidas de recall, precision e f1-score, sendo robusto o suficiente para ser colocado em produção.
 ![Captura de tela 2025-03-08 141211](https://github.com/user-attachments/assets/41a4d93d-782c-4458-b9a9-9f2aa781ad56)
 
+
 ### Explicabilidade
 
 Também foi criada a visualização do modelo em html utilizando a biblioteca Lime para ajudar a explicar os valores das features e seus pesos na classificação de crédito.
